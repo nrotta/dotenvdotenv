@@ -1,0 +1,19 @@
+{
+  "name": "dotenvdotenv",
+  "version": "0.0.1",
+  "description": "Loads environment variables from .env.<ENV_NAME> files",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nrotta/dotenvdotenv.git"
+  },
+  "author": "Nicolas Rotta <nicolasrotta@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "chai": "^3.5.0"
+  }
+}
