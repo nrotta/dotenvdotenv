@@ -1,7 +1,7 @@
 {
   "name": "dotenvdotenv",
   "version": "0.0.4",
-  "description": "Loads environment variables from .env.<ENV_NAME> files",
+  "description": "Loads environment variables from .env.${ENV_NAME} files",
   "main": "lib/index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha"
