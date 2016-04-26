@@ -3,6 +3,7 @@
 Zero-dependency lib that loads environment variables from `.env.<ENV_NAME>` files
 
 [![BuildStatus](https://img.shields.io/travis/nrotta/dotenvdotenv/master.svg?style=flat-square)](https://travis-ci.org/nrotta/dotenvdotenv)
+[![NPM version](https://img.shields.io/npm/v/dotenvdotenv.svg?style=flat-square)](https://www.npmjs.com/package/dotenvdotenv)
 
 ## Install
 
