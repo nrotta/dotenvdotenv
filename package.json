@@ -1,6 +1,6 @@
 {
   "name": "dotenvdotenv",
-  "version": "0.0.6",
+  "version": "0.6.1",
   "description": "Loads environment variables from .env.${ENV_NAME} files",
   "main": "lib/index.js",
   "scripts": {
