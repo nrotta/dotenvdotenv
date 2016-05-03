@@ -11,10 +11,10 @@ module.exports = (function() {
   }
 
   fs.readFileSync(file).toString().split('\n').forEach(function(line) {
-    var lineArray = line.split(/=(.+)?/);
+    var lineArray = line.split(/\=(.+)?/);
     var key = lineArray[0];
     var value = (lineArray[1] ? lineArray[1] : '');
 
     process.env[key] = process.env[key] || value;
   });
-})();
+}());
