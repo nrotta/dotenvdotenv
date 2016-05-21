@@ -38,7 +38,7 @@ redis: {
 }
 ```
 
-If the `.env.${ENV_NAME}` files do no exist, an error will raised
+If the `.env.${ENV_NAME}` files do no exist, an error will be raised
 
 ## Supports
 
